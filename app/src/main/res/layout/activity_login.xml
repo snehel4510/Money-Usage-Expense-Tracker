@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/money"
+android:clickable="true"
+tools:context=".LoginActivity">
+
+<Button
+    android:id="@+id/log"
+    android:layout_width="184dp"
+    android:layout_height="52dp"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:text="Log In"
+    android:textAlignment="center"
+    android:textAllCaps="false"
+    android:textColor="#070000"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.36"
+    app:layout_constraintStart_toEndOf="@+id/button2"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="187dp"
+    android:layout_height="52dp"
+    android:background="?attr/selectableItemBackground"
+    android:text="Sign Up"
+    android:textAllCaps="false"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.07"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
+<Button
+    android:id="@+id/glogin"
+    android:layout_width="351dp"
+    android:layout_height="52dp"
+    android:background="@color/purple_500"
+    android:text="Sign In with Google"
+    android:textSize="24sp"
+    app:iconSize="40dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.923" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="65dp"
+    android:layout_height="82dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/glogin"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.942"
+    app:srcCompat="@drawable/google" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
