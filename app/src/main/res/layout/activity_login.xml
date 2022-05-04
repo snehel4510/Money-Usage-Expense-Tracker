@@ -42,7 +42,7 @@ tools:context=".LoginActivity">
     app:layout_constraintVertical_bias="1.0" />
 
 <Button
-    android:id="@+id/glogin"
+    android:id="@+id/GoogleLogin"
     android:layout_width="351dp"
     android:layout_height="52dp"
     android:background="@color/purple_500"
@@ -61,7 +61,7 @@ tools:context=".LoginActivity">
     android:layout_width="65dp"
     android:layout_height="82dp"
     app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toStartOf="@+id/glogin"
+    app:layout_constraintEnd_toStartOf="@+id/GoogleLogin"
     app:layout_constraintHorizontal_bias="0.0"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
