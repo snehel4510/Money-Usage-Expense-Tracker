@@ -9,7 +9,7 @@ android:clickable="true"
 tools:context=".LoginActivity">
 
 <Button
-    android:id="@+id/log"
+    android:id="@+id/log_in"
     android:layout_width="184dp"
     android:layout_height="52dp"
     android:background="?attr/selectableItemBackgroundBorderless"
@@ -21,12 +21,12 @@ tools:context=".LoginActivity">
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.36"
-    app:layout_constraintStart_toEndOf="@+id/button2"
+    app:layout_constraintStart_toEndOf="@+id/sign_in"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="1.0" />
 
 <Button
-    android:id="@+id/button2"
+    android:id="@+id/sign_in"
     android:layout_width="187dp"
     android:layout_height="52dp"
     android:background="?attr/selectableItemBackground"
